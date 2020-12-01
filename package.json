@@ -10,8 +10,18 @@
   },
   "devDependencies": {
     "ava": "3.13.0",
+    "husky": ">=4",
+    "lint-staged": ">=10",
     "nyc": "15.1.0",
     "prettier": "2.2.1",
     "tape": "5.0.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": "prettier --write"
   }
 }
