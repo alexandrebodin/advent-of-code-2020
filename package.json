@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code-2020",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.js",
+    "format": "prettier --write *.js",
+    "test": "ava -v",
+    "test:coverage": "nyc --reporter=lcov --reporter=text-summary ava"
+  },
+  "devDependencies": {
+    "ava": "3.13.0",
+    "nyc": "15.1.0",
+    "prettier": "2.2.1",
+    "tape": "5.0.1"
+  }
+}
