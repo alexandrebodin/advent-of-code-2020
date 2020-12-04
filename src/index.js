@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const days = 3;
+const days = 4;
 
 const execExercise = (input, day, num) => {
   const exercisePath = `./day${day}/${num}.js`;
